@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Better Nhentai Blacklist 2",
+    "version": "1.0",
+    "description": "Fully hides blacklisted items, no more accidental scaring yourself!",
+	"content_scripts": [{
+      "css": ["styles.css"],
+      "matches": ["https://nhentai.net/*"]
+    }],
+    "icons": {
+      "16": "images/nhentai_blacklist_16.png",
+      "32": "images/nhentai_blacklist_32.png",
+      "48": "images/nhentai_blacklist_48.png",
+      "128": "images/nhentai_blacklist_128.png"
+    }
+  }
